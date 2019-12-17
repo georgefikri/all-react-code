@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  display: flex;
+  justify-content: center
+}
+
+.noteContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  border: 1px solid #d3d2d2;
+}
+
+.noteLeft , .noteRight {
+  width: 50%;
+  min-height: 300px
+}
+
+.noteLeft {
+  border-right: 1px solid #d3d2d2
+}
+
+/* left side */
+.noteLeftTop {
+  margin-top: 20px;
+  border-bottom: 1px solid #d3d2d2;
+  padding: 0 1% 3% 1%;
+}
+.noteLeftTop input {
+  width: 80%;
+  border-radius: 15px;
+  border: 1px solid #d3d2d2;
+  height: 30px;
+  padding-left: 5px;
+  outline: none;
+  font:1.1em SFNSText,Helvetica Neue,sans-serif;
+  text-transform: capitalize
+}
+
+.noteLeftTop button , form button {
+  height: 30px;
+  border-radius: 30px;
+  border: 0;
+  margin-left: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: rgba(242,206,0,.24);
+  color: #000;
+  border: 1px solid #d3d2d2
+
+}
+
+.noteBottom h1 {
+  font:1.8em SFNSText,Helvetica Neue,sans-serif;
+  display: flex;
+  justify-content: center
+}
+
+.displayNotes {
+  margin: 0
+}
+
+.displayNotes span {
+  background-color: rgba(242,206,0,.24);
+  min-height: 26px;
+  display: block;
+  padding: 24px 0 10px 1%;
+  border-bottom:1px solid hsla(0,0%,53%,.2);
+  text-transform: capitalize;
+  font:1.2em SFNSText,Helvetica Neue,sans-serif
+}
+
+/* Right Side   */
+
+form {
+  padding:10px
+}
+
+form input , form textarea {
+  display:block;
+  width:70%;
+  margin-bottom:20px;
+  border:1px solid #d3d2d2;
+  border-radius:15px;
+  padding: 0 10px
+}
+
+form input {
+  height:30px
+}
+
+form textarea {
+  min-height:70px;
+  padding-top: 10px
+}
+
+form button {
+  margin:0
+}
+
+.noteRight h1 {
+  font:1.8em SFNSText,Helvetica Neue,sans-serif;
+  display: flex;
+  justify-content: center
+}
+
+.noteDetails {
+  padding: 0 30px;
+  font-family: SFNSText,Helvetica Neue,sans-serif
+}
+
+.noteDetails p { 
+  margin-bottom: 30px;
+  font-size: 1.2em
+}
+
+.noteDetails p:last-child {
+  font-size: 1.7em
+}

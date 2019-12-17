@@ -1,0 +1,44 @@
+body {
+  margin: 10;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input {
+  padding: 10px
+}
+
+form div > span {
+  min-width: 200px;
+  display: inline-block
+}
+
+form > div {
+  margin-bottom: 20px
+}
+
+.clear {
+  height:1px;
+  clear: both;
+}
+
+.gender span {
+  display: inline-flex;
+}
+
+.gender .clear {
+  padding: 10px
+}
+
+.dropDown select {
+  min-width: 180px;
+  height: 30px;
+}
